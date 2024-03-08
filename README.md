@@ -4,11 +4,10 @@ Para este proyecto, implementaré un servicio REST sin utilizar ningún framewor
 Para organizar el código, seguiré un estilo de arquitectura MVC (Modelo, Vista, Controlador). Esto me ayudará a mantener el código ordenado y a dividir las responsabilidades de manera clara, lo que facilitará su lectura y mantenimiento.
 
 
-
-
 Para el segundo punto del primer ejercicio, el requerimiento que hace posible  a un usuario dar like a una propiedad, se propone el siguiente modelo:
 
-![UML_for_likes](https://github.com/ajgonzalezt/habi-test/assets/47196362/80842419-c0c7-4dde-bf6b-3be5c500fca1)
+
+![UML_for_likes](https://github.com/ajgonzalezt/habi-test/assets/47196362/f8f3a450-d4c2-4429-846b-9db6073c0b2d)
 
 
 Como se puede ver en la imagen, se decidio añadir a las tablas ya existentes, una tercera tabla que modele la relacion entre los usuarios y las propiedad, esta tabla tendra entonces la llave foranea a la propiedad y la llave foranea al usuarii autenticado, ademas de tambien almacenar la fecha de cada uno de los likes a las propiedades.
