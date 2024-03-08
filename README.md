@@ -1,5 +1,4 @@
 # habi-test
+Para este proyecto, implementaré un servicio REST sin utilizar ningún framework. Utilizaré una base de datos MySQL para acceder a los datos que necesito consultar. Para crear los endpoints de la API, usaré la biblioteca BaseHTTPRequestHandler. También realizaré pruebas con unittest para verificar que las respuestas de la API sean correctas.
 
-Para este desarrollo, no usare ningun framework, usare las bases de datos que se me proveeron en mySQL para acceder a los datos a los cuales consultar. Para generar una conexion que permita la consulta en un mecanismo de tipo rest, usare la libreria BaseHTTPRequestHandler, para disponibilizar los endpoints necesarios. Tambien para el desarrollo de pruebas usare unittest para validar que la respuesta obtenida del API sea correcta.
-
-Para la organizacion de archivos utilisare un estilo de arquitectura MVC (model, view, controler) ya que de esta manera el codigo queda mucho mas ordenado y las responsabilidades estan mejor divididas, permitiendo asi una lectura mas facil del codigo 
+Para organizar el código, seguiré un estilo de arquitectura MVC (Modelo, Vista, Controlador). Esto me ayudará a mantener el código ordenado y a dividir las responsabilidades de manera clara, lo que facilitará su lectura y mantenimiento.
